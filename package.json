@@ -1,0 +1,23 @@
+{
+  "name": "static-node-express-site",
+  "version": "0.0.1",
+  "description": "portfolio website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatognunes/static-node-express-site.git"
+  },
+  "author": "Renato Guimaraes Nunes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatognunes/static-node-express-site/issues"
+  },
+  "homepage": "https://github.com/renatognunes/static-node-express-site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
