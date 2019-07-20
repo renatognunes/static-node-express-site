@@ -24,21 +24,15 @@ app.set('view engine', 'pug');
 app.use((req, res, next) => {
     const err = new Error('Not Found');
     err.status = 404;
+    console.log('Ops! Sorry, There is a problem! - Learn more: https://teamtreehouse.com/library/error-handling-middleware', err);
     next(err);
 });
 
 // Error Handling Middleware
 app.use((err, req, res, next) => {
+    res.locals.error = err;
     res.status(err.status);
-    res.send(`
-            <div>
-                <h1> Ops! Sorry, There is a problem!</h1> 
-                <i>(${err.status} - ${err.message})</i>
-                <p> You can learn about this kind of error here: <a href="https://teamtreehouse.com/library/error-handling-middleware">Error Handling Middleware</a></p>
-                <br>
-                <pre>${err.stack}</pre>
-            </div>
-            `);
+    res.render('error');
 })
 
 // Setup a development server

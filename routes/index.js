@@ -6,11 +6,10 @@ const express = require('express');
 const router = express.Router();
 
 // Require flat data 
-const { projects } = require('../data/projectsData.json');
+const projects = require('../data/projectsData.json');
 
 router.get('/', (req, res) => {
-    const projectData = projects
-    res.render('index', projectData);
+    res.render('index', projects);
 })
 
 // Export this router so I can reference it in the app.js file
