@@ -9,9 +9,7 @@ const router = express.Router();
 const { projects } = require('../data/projectsData.json');
 
 router.get('/project', (req, res) => {
-    const latestProject = projects.length - 1;
-    // Redirect to a project/id later
-    res.redirect(`project/${latestProject}/`)
+    res.redirect('project/0/')
 })
 
 router.get('/project/:id', (req, res) => {

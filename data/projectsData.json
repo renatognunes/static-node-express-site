@@ -2,21 +2,21 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "Random Quote Generator",
-            "description": "Using basic JavaScript syntax, variables, loops, conditionals and object literals, I've built this app that displays random famous quotes each time a button is clicked.",
-            "technologies": ["HTML", "CSS", "Javascript"],
-            "live_link": "https://renatognunes.github.io/random-quote-generator/",
-            "github_link": "https://github.com/renatognunes/random-quote-generator",
-            "image_urls": ["/static/img/project1-main.png", "/static/img/project1-ls1.png", "/static/img/project1-ls2.png"]
+            "project_name": "Public API Request",
+            "description": "This project uses Fetch API to request data from a public API. The project displays an employee directory including all pieces of information from the employees in the database. A gallery contains all employees on an initial page. The user can select an employee by clicking on a card and will display detailed information about the selected employee. The user has a search tool which he can use to search for a specific employee. The search will filter all matched results searching for first or last name. When an employee card is clicked, the modal with all information from that employee is displayed, the user can use the buttons at the bottom of the modal to navigate through the employee's dictionary.",
+            "technologies": ["HTML", "CSS", "Javascript", "ES6", "JSON"],
+            "live_link": "https://renatognunes.github.io/public-api-request/",
+            "github_link": "https://github.com/renatognunes/public-api-request",
+            "image_urls": ["/static/img/project5-main.png", "/static/img/project5-ls1.png", "/static/img/project5-ls2.png"]
         },
         {
             "id": 1,
-            "project_name": "List Pagination and Filtering",
-            "description": "The project implements functionally to display a list of students more organized and clean. The principal function added to this project is a pagination feature, which allows the user to navigate through a list of students using buttons. These buttons have assigned the max of 10 students each, which will be displayed on the page when selected. In addition, I implemented a search bar feature, which allows the user to search for a specific student name. This project follows the core principles of Progressive Enhancement.",
-            "technologies": ["HTML", "CSS", "Javascript"],
-            "live_link": "https://renatognunes.github.io/list-pagination-and-filtering/",
-            "github_link": "https://github.com/renatognunes/list-pagination-and-filtering",
-            "image_urls": ["/static/img/project2-main.png", "/static/img/project2-ls1.png", "/static/img/project2-ls2.png"]
+            "project_name": "Object Oriented Programming Game",
+            "description": "This project uses Object-Oriented Programming to create a guessing phrase game. The game generates a random phrase on the screen and the player has 5 chances to guess the correct phrase. The player is able to use a virtual keyboard as well as a physical keyboard. The project uses two main class Game and Phrase which interact with each other making the project clearer and more consistent.",
+            "technologies": ["HTML", "CSS", "Javascript", "ES6"],
+            "live_link": "https://renatognunes.github.io/oop-game-app/",
+            "github_link": "https://github.com/renatognunes/oop-game-app",
+            "image_urls": ["/static/img/project4-main.png", "/static/img/project4-ls2.png", "/static/img/project4-ls1.png"]
         },
         {
             "id": 2,
@@ -29,21 +29,21 @@
         },
         {
             "id": 3,
-            "project_name": "Object Oriented Programming Game",
-            "description": "This project uses Object-Oriented Programming to create a guessing phrase game. The game generates a random phrase on the screen and the player has 5 chances to guess the correct phrase. The player is able to use a virtual keyboard as well as a physical keyboard. The project uses two main class Game and Phrase which interact with each other making the project clearer and more consistent.",
-            "technologies": ["HTML", "CSS", "Javascript", "ES6"],
-            "live_link": "https://renatognunes.github.io/oop-game-app/",
-            "github_link": "https://github.com/renatognunes/oop-game-app",
-            "image_urls": ["/static/img/project4-main.png", "/static/img/project4-ls2.png", "/static/img/project4-ls1.png"]
+            "project_name": "List Pagination and Filtering",
+            "description": "The project implements functionally to display a list of students more organized and clean. The principal function added to this project is a pagination feature, which allows the user to navigate through a list of students using buttons. These buttons have assigned the max of 10 students each, which will be displayed on the page when selected. In addition, I implemented a search bar feature, which allows the user to search for a specific student name. This project follows the core principles of Progressive Enhancement.",
+            "technologies": ["HTML", "CSS", "Javascript"],
+            "live_link": "https://renatognunes.github.io/list-pagination-and-filtering/",
+            "github_link": "https://github.com/renatognunes/list-pagination-and-filtering",
+            "image_urls": ["/static/img/project2-main.png", "/static/img/project2-ls1.png", "/static/img/project2-ls2.png"]
         },
         {
             "id": 4,
-            "project_name": "Public API Request",
-            "description": "This project uses Fetch API to request data from a public API. The project displays an employee directory including all pieces of information from the employees in the database. A gallery contains all employees on an initial page. The user can select an employee by clicking on a card and will display detailed information about the selected employee. The user has a search tool which he can use to search for a specific employee. The search will filter all matched results searching for first or last name. When an employee card is clicked, the modal with all information from that employee is displayed, the user can use the buttons at the bottom of the modal to navigate through the employee's dictionary.",
-            "technologies": ["HTML", "CSS", "Javascript", "ES6", "JSON"],
-            "live_link": "https://renatognunes.github.io/public-api-request/",
-            "github_link": "https://github.com/renatognunes/public-api-request",
-            "image_urls": ["/static/img/project5-main.png", "/static/img/project5-ls1.png", "/static/img/project5-ls2.png"]
+            "project_name": "Random Quote Generator",
+            "description": "Using basic JavaScript syntax, variables, loops, conditionals and object literals, I've built this app that displays random famous quotes each time a button is clicked.",
+            "technologies": ["HTML", "CSS", "Javascript"],
+            "live_link": "https://renatognunes.github.io/random-quote-generator/",
+            "github_link": "https://github.com/renatognunes/random-quote-generator",
+            "image_urls": ["/static/img/project1-main.png", "/static/img/project1-ls1.png", "/static/img/project1-ls2.png"]
         }
     ]
 }

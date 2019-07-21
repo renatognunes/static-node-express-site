@@ -5,7 +5,7 @@ h1,h2,h3,h4,h5,p{
 
   h5{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: 2.5px;
+    letter-spacing: 2.3px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
   }
@@ -71,7 +71,7 @@ a:hover{
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: rgb(231, 231, 231);
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -121,7 +121,7 @@ a:hover{
   }
 
   .portfolio-index .cell{
-    margin-bottom: 15px;
+    margin-bottom: 18px;
   }
 
     .portfolio-index .cell h5{
@@ -138,6 +138,8 @@ a:hover{
 
 .portfolio-project p{
   border: none;
+  font-size: 18.5px;
+  color: rgb(44, 43, 43);
 }
 
 .portfolio-project li{
@@ -148,3 +150,5 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+
