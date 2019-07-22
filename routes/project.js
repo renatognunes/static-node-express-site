@@ -42,13 +42,18 @@ router.get('/project', (req, res) => {
  * @param {callback} middleware - Express middleware.
  * @param {express.resquest {request.params : string}}
  * @param {express.response}
+ * @param {function} next - Next middleware function
  * @param {Object} projects JSON data
- * @return rendered template
+ * @return {undefined}
  */
-router.get('/project/:id', (req, res) => {
+router.get('/project/:id', (req, res, next) => {
     const { id } = req.params;
-    const project = projects[id]
-    res.render('project', project);
+    if (id < projects.length) {
+        const project = projects[id]
+        return res.render('project', project);
+    } else {
+        next();
+    }
 });
 
 
