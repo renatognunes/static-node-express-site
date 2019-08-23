@@ -1,6 +1,6 @@
-Treehouse Techdegree: FSJS project 6 - Static Node Express Site
+Static Node Express Site
 
-This project uses technologies such as Node.js, NPM, Express web framework, and Pug template engine. Using these technologies, I've built a static portfolio, fetching data from a flat JSON file including information about my latest projects. Using Express as a web framework to structure a server, routes, and modules. I used Pug as a template engine to compile my HTML files in a more organized way, extending files to minimize redundancy. This project was built with the intention of better understanding Node.js, Managing dependencies with NPM, working with a web application framework and template engines.
+This project uses technologies such as Node.js, NPM, Express web framework, and Pug template engine. Using these technologies, I've built a static portfolio, fetching data from a flat JSON file including information about my latest projects. Using Express as a web framework to structure a server, routes, and modules. I used Pug as a template engine to compile my HTML files in a more organized way, extending files to minimize redundancy.
 
 Languages:
 - Javascript ES6
@@ -33,9 +33,3 @@ Basics methods and technics:
 - Callback Functions
 - Loopings and Conditionals
 - JSDoc 3
-
-Examiner:
-
-For styling, I've chosen a minimalist approach. 
-I've added all my CSS changes in a separated file called personalized.css.
-I've changed colors, buttons, fonts, transitions, and borders.
