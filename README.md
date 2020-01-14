@@ -1,4 +1,4 @@
-Static Node Express Site
+Static Website built with Node.js & Express.js
 
 This project uses technologies such as Node.js, NPM, Express web framework, and Pug template engine. Using these technologies, I've built a static portfolio, fetching data from a flat JSON file including information about my latest projects. Using Express as a web framework to structure a server, routes, and modules. I used Pug as a template engine to compile my HTML files in a more organized way, extending files to minimize redundancy.
 
